@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: mykuctlproject
+  name: mykuctlservice
 spec:
   selector:
-     run: mykuctlproject
+     run: mykuctlservice
   ports:
   - protocol: TCP
     port: 80
